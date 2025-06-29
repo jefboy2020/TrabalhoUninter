@@ -1,0 +1,57 @@
+html, body{
+    height: 100%;
+    background-image:-moz-linear-gradient(rgb(183, 253, 230),rgb(121, 226, 191),rgb(44, 133, 103)) ;
+    border: 3px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 20px; 
+}
+
+.containersPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.proximasPaginas{
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-image:-moz-linear-gradient(rgb(183, 253, 230),rgb(121, 226, 191),rgb(44, 133, 103)) ;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.QuadradosProximasPaginas{
+    display: inline-block;
+    text-align: center;
+    background-image:-moz-linear-gradient( rgb(0, 255, 255), rgb(58, 146, 146), rgb(54, 185, 185));
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 120px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.QuadradosProximasPaginas:hover{
+    background-image: -moz-linear-gradient( rgb(133, 209, 209), rgb(23, 211, 211), rgb(24, 105, 105));
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+
