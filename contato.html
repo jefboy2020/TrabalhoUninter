@@ -4,29 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilocontato.css">
 </head>
 <body>
     <section>
-        <section>
-            <h2>Telefones</h2>
-            <li><Strong>(34)</Strong>992741998</li>
-            <li><strong> Auxilar Tecnico I - </Strong>32154618</li>
-            <li><Strong>Tecnico em eletronica JR II - </Strong> Global express assistencia tecnica</li>
-            <li><Strong>Auxiliar Tecnico II - </Strong> MRC Soluções Industriais</li>
+        <section class="caixaLateral">
+            <h2 class=" Moverh2ParaOcentro">Telefones</h2>
+            <ul>
+                 <li><Strong>Telefone Celular: </Strong>(34)992741998</li>
+                 <li><strong>Telefone Fixo: </Strong>(34)32154618</li>
+            </ul>
+           
         </section>
         <br>
-        <section>
-            <h2>Email</h2>
-            <li><strong>jeferson.b.l@hotmail.com</strong></li>
+        <section class="caixaLateral">
+            <h2 class="Moverh2ParaOcentro">Email</h2>
+            <ul>
+                <li><strong>jeferson.b.l@hotmail.com</strong></li>
+            </ul>
+            
         </section>
         <br>
-        <section>
-            <h2>Links proximas paginas</h2>
-            <li><a href="SobreMim.html">SobreMim</a></li>
-            <li><a href="index.html">Indice</a></li>
-            <li><a href="formacao.html">Formação</a></li>
-            <li><a href="portilfolio.html">Portifolio</a></li>
+
+        <section class=" caixaLateral">
+            <h2> Formulario de contato</h2>
+            <form>
+                <label for="nome"><strong>Nome: </strong></label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="Email"><strong>Email: </strong></label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Enviar</button>
+
+            </form>
         </section>
+        <br>
+        <section class="caixaLateral">
+            <h2 class="Moverh2ParaOcentro">Links proximas paginas</h2>
+            <div class="Links">
+                <a  class="LinksQuadrados" href="SobreMim.html">SobreMim</a>
+                <a class="LinksQuadrados" href="index.html">Indice</a>
+                <a class="LinksQuadrados" href="formacao.html">Formação</a>
+                <a class="LinksQuadrados" href="portilfolio.html">Portifolio</a>
+            </div>
+            
+        </section>
+
+        <br>
     </section>
     
 </body>

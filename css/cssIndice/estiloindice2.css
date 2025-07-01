@@ -1,6 +1,6 @@
 .caixa-informacao{
     
-    background-image: -moz-linear-gradient( rgb(133, 209, 209), rgb(23, 211, 211), rgb(24, 105, 105));
+    background-image: linear-gradient( rgb(133, 209, 209), rgb(23, 211, 211), rgb(24, 105, 105));
     padding: 20px;
     width: fit-content; /* para ajustar ao tamanho do conteúdo */
     margin: auto; /* centraliza horizontalmente */

@@ -1,6 +1,6 @@
 .QuadradoDireito{
      width: 300px;
-     background-image:-moz-linear-gradient( rgb(0, 255, 255), rgb(58, 146, 146), rgb(54, 185, 185));
+     background-image:linear-gradient( rgb(0, 255, 255), rgb(58, 146, 146), rgb(54, 185, 185));
      padding: 20px;
      border: 4px solid white;
      justify-self: end;
@@ -9,7 +9,7 @@
 
 .QuadradoDireito:hover{
     transition: 0.5s;
-    background-image:-moz-linear-gradient( rgb(133, 209, 209), rgb(23, 211, 211), rgb(24, 105, 105));
+    background-image:linear-gradient( rgb(133, 209, 209), rgb(23, 211, 211), rgb(24, 105, 105));
     transform: scale(1.05);
 }
 

@@ -9,6 +9,8 @@ body{
 section{
     border: 4px solid black;
     border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 
 }
 
@@ -59,7 +61,16 @@ section{
     transition: 0.3s;
 }
 .LinksQuadrados:hover{
-     background-image:linear-gradient( rgb(133, 209, 209), rgb(23, 211, 211), rgb(24, 105, 105));
+     background-image: linear-gradient( rgb(133, 209, 209), rgb(23, 211, 211), rgb(24, 105, 105));
     transform: scale(1.05);
     transition: 0.9s;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 .caixadeimagem{
-    background-image:-moz-linear-gradient(rgb(183, 253, 230),rgb(121, 226, 191),rgb(44, 133, 103)) ;
+    background-image:linear-gradient(rgb(183, 253, 230),rgb(121, 226, 191),rgb(44, 133, 103)) ;
     padding: 20px;
     width: fit-content; /* para ajustar ao tamanho do conteúdo */
     margin: auto; /* centraliza horizontalmente */
