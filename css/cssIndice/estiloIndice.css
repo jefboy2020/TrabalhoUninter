@@ -5,7 +5,9 @@ body{
     padding: 0;
 }
 
-
+.caixa-indice{
+border:5px solid Black;
+}
 
 .caixa-branca {
     background-image:linear-gradient( rgb(0, 255, 255), rgb(58, 146, 146), rgb(54, 185, 185));
